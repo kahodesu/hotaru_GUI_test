@@ -122,6 +122,7 @@ void calcAttack() {
 
 void drawAttacks() {
   fill(255, 0, 0);
+  stroke(0);
   for (int i =0; i <totalAttacks; i++) {
     ellipse(50+((width-100)*(float)attackTimes[i] / (float)gameLength), 400, 6, 6); //FU FLOATS
   }
